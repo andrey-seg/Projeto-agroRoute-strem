@@ -64,7 +64,7 @@ if 'mapa_gerado' not in st.session_state:
     st.session_state.mapa_gerado = None
 
 # ==================== TÍTULO ====================
-st.markdown('<h1 class="main-header">Otimizador de Rotas Agrícolas</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Agro Route</h1>', unsafe_allow_html=True)
 st.markdown("### Sistema inteligente para otimização de rotas entre propriedades, silos e portos")
 st.markdown("---")
 
