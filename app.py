@@ -486,5 +486,5 @@ SEQUÊNCIA DE VISITAS:
 st.markdown("---")
 col1, col2, col3 = st.columns(3)
 with col2:
-    st.caption("🚜 Otimizador de Rotas Agrícolas v1.0")
+    st.caption("Otimizador de Rotas Agrícolas v1.0")
     st.caption("Desenvolvido com ❤️ usando Streamlit + OR-Tools + OpenRouteService")
