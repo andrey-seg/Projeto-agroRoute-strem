@@ -1,16 +1,3 @@
-"""
-app.py - Interface Streamlit para Otimizador de Rotas Agrícolas
-Versão: 1.0
-
-Como executar:
-    streamlit run app.py
-
-Requisitos:
-    - Python 3.8+
-    - Bibliotecas listadas em requirements.txt
-    - Chave API OpenRouteService (gratuita em https://openrouteservice.org)
-"""
-
 import streamlit as st
 from streamlit_folium import st_folium
 import pandas as pd
