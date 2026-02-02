@@ -12,7 +12,7 @@ from otimizador import (
 # ==================== CONFIGURAÇÃO DA PÁGINA ====================
 st.set_page_config(
     page_title="Otimizador de Rotas Agrícolas",
-    page_icon="🚜",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -64,7 +64,7 @@ if 'mapa_gerado' not in st.session_state:
     st.session_state.mapa_gerado = None
 
 # ==================== TÍTULO ====================
-st.markdown('<h1 class="main-header">🚜 Otimizador de Rotas Agrícolas</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Otimizador de Rotas Agrícolas</h1>', unsafe_allow_html=True)
 st.markdown("### Sistema inteligente para otimização de rotas entre propriedades, silos e portos")
 st.markdown("---")
 
